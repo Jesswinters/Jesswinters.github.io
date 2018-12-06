@@ -65,11 +65,10 @@ career-profile:
           puns, tea, sweet snacks, and enjoying well-crafted beer.
 
 education:
-  - degree:
+  - degree: Web Development Bootcamp Certificate
     university: Lighthouse Labs
     time: 2018 - 2019
     details: |
-      Web Development Bootcamp Certificate
 
 experiences:
   - role: Front-End Developer
@@ -148,26 +147,32 @@ publications:
       conference:
 
 skills:
-  title: Skills &amp; Proficiency
+  title: Skills
 
   toolset:
-    - name: Python & Django
-      level: 98%
+    - name: HTML & CSS/SASS
+      level:
 
-    - name: Javascript & jQuery
-      level: 98%
+    - name: JavaScript & jQuery
+      level:
 
-    - name: Angular
-      level: 98%
+    - name: React
+      level:
 
-    - name: HTML5 & CSS
-      level: 95%
+    - name: Liquid
+      level:
 
     - name: Ruby on Rails
-      level: 85%
+      level:
 
     - name: Sketch & Photoshop
-      level: 60%
+      level:
+
+    - name: Git
+      level:
+
+    - name: QA Testing
+      level:
 
 footer: >
   Thanks for looking! <i class="fas fa-heart"></i>

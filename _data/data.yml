@@ -151,28 +151,15 @@ skills:
 
   toolset:
     - name: HTML & CSS/SASS
-      level: 100%
-
     - name: JavaScript & jQuery
-      level: 100%
-
     - name: React
-      level: 100%
-
     - name: Liquid
-      level: 100%
-
     - name: Ruby on Rails
-      level: 100%
-
-    - name: Sketch & Photoshop
-      level: 100%
-
     - name: Git
-      level: 100%
-
     - name: QA Testing
-      level: 100%
+    - name: Sketch & Photoshop
+    - name: Figma
+    - name: Zeplin
 
 footer: >
-  Thanks for looking! <i class="fas fa-heart"></i>
+  Thanks for reading! <i class="fas fa-heart"></i>

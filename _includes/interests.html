@@ -2,8 +2,10 @@
 
 {% if interests %}
   <div class="interests-container container-block">
-
     <h2 class="container-block-title">
+      <span class="fa-stack">
+        <i class="fas fa-user-circle fa-inverse"></i>
+      </span>
       Interests
     </h2>
 
@@ -16,7 +18,6 @@
         {% endif %}
       {% endfor %}
     </ul>
-
   </div>
   <!--//interests-->
 {% endif %}

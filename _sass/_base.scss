@@ -216,23 +216,23 @@ p {
   }
 
   .upper-row {
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #f5f5f5;
   }
 
   .job-title, .degree {
-    color: $text-color;
-    font-size: 16px;
     margin-top: 0;
     margin-bottom: 0;
+    font-size: 16px;
     font-weight: 500;
+    color: $text-color;
   }
 
   .time {
-    position: absolute;
-    right: 0;
-    top: 0;
     color: $text-grey;
   }
 

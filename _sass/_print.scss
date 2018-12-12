@@ -17,10 +17,22 @@
     -webkit-print-color-adjust: exact;
   }
 
+  .main-wrapper {
+    .job-title {
+      font-weight: 700;
+    }
+
+    .section-title {
+      .fa-stack {
+        display: none;
+      }
+    }
+  }
+
   .sidebar-wrapper {
     position: static;
-    float: right;
-    width: 40%;
+    float: left;
+    width: 45%;
     -webkit-print-color-adjust: exact;
   }
 

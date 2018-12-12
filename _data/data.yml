@@ -153,7 +153,8 @@ skills:
     - name: HTML & CSS/SASS
     - name: JavaScript & jQuery
     - name: React
-    - name: Liquid
+    - name: Liquid (Shopify templating language)
+    - name: Handlebars (templating language)
     - name: Ruby on Rails
     - name: Git
     - name: QA Testing

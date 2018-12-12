@@ -12,6 +12,12 @@
   .main-wrapper {
     padding: 12px;
   }
+}
+
+@media (max-width: 1024px) {
+  body {
+    padding: 20px;
+  }
 
   .footer {
     padding-top: 20px;

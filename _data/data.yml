@@ -121,6 +121,10 @@ projects:
       link: "https://github.com/Jesswinters/chatty"
       tagline: "A chat app built on ReactJS using websockets. Allows local chatting and displaying of images and gifs!"
 
+    - title: Mapm
+      link: "https://github.com/Jesswinters/mapm"
+      tagline: "Lighthouse Labs midterm project wiki map, Mapm!"
+
 publications:
   title: Publications
   intro: |

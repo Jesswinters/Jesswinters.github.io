@@ -61,7 +61,7 @@ career-profile:
           reading, traveling, puns, tea, sweet snacks, and enjoying well-crafted beer.
 
 education:
-  - degree: Web Development Bootcamp Certificate
+  - degree: Diploma of Web Development
     university: Lighthouse Labs
     time: 2018 - 2019
     details: |
@@ -114,6 +114,10 @@ projects:
   intro: >
 
   assignments:
+    - title: SurveyRaptor
+      link: "https://github.com/fiveache/SurveyRaptor"
+      tagline: "A polling tool for Slack that helps you gauge decisions that will affect your team by building personality profiles that adjust and evolve over time."
+
     - title: Chatty
       link: "https://github.com/Jesswinters/chatty"
       tagline: "A chat app built on ReactJS using websockets. Allows local chatting and displaying of images and gifs!"

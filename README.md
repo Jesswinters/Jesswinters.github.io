@@ -1,3 +1,3 @@
 # Resume
 
-Jessica Winters' resume.
+Jessica Winters' resume. Visit it at https://jesswinters.github.io/

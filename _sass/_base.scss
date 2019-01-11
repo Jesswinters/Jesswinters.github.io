@@ -1,12 +1,10 @@
 /* ======= Base ======= */
 body {
+  padding: 30px;
   font-family: 'CircularStd-Book';
+  font-size: 16px;
   color: $text-color-secondary;
   background: $smoky-white;
-  font-size: 14px;
-  padding: 30px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -66,7 +64,7 @@ p {
 
   .tagline {
     color: rgba(256, 256, 256, 0.6);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 0;
@@ -110,25 +108,24 @@ p {
     margin-top: 0;
     margin-bottom: 15px;
     font-family: 'CircularStd-Bold';
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
 
     .fa-stack {
       width: 1.5em;
       margin-right: 8px;
-      font-size: 16px;
+      font-size: 18px;
     }
   }
 
   .fa-stack-sidebar {
     width: 1.5em;
     margin-right: 8px;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .degree {
-    font-size: 14px;
     margin-top: 0;
     margin-bottom: 5px;
   }
@@ -230,7 +227,7 @@ p {
   .job-title, .degree {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     color: $text-color;
   }
@@ -247,7 +244,7 @@ p {
   .project-title {
     display: inline-block;
     width: 15%;
-    font-size: 16px;
+    font-size: 18px;
     vertical-align: top;
   }
 
@@ -267,7 +264,7 @@ p {
   }
 
   .publication-title {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     color: $text-color;
     margin-bottom: 1px;
@@ -296,7 +293,7 @@ p {
   .copyright {
     line-height: 1.6;
     color: $text-color-secondary;
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .fa-heart {

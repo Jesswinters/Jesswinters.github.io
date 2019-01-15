@@ -22,4 +22,15 @@
   .footer {
     padding-top: 20px;
   }
+
+  .main-wrapper {
+    .project-title {
+      width: auto;
+      vertical-align: baseline;
+    }
+
+    .project-tagline {
+      display: inline;
+    }
+  }
 }

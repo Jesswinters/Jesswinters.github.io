@@ -28,6 +28,9 @@ sidebar:
     - idiom: English
       level: Native
 
+    - idiom: Japanese
+      level: Beginner
+
   interests:
     - item: Video Games
       link:
@@ -45,6 +48,9 @@ sidebar:
       link:
 
     - item: Tea
+      link:
+
+    - item: Crafting
       link:
 
     - item: Cycling

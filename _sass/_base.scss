@@ -275,14 +275,16 @@ p {
 
   .project-title {
     display: inline-block;
-    width: 18%;
+    width: 25%;
     font-size: 18px;
     vertical-align: top;
   }
 
   .project-tagline {
     display: inline-block;
-    width: 81%;
+    width: 75%;
+    font-size: 16px;
+    vertical-align: bottom;
   }
 
   .projects-section {
@@ -292,6 +294,7 @@ p {
 
     .item {
       margin-bottom: 15px;
+      font-size: 0;
     }
   }
 

@@ -120,8 +120,12 @@ projects:
   intro: >
 
   assignments:
+    - title: Weather Forecast
+      link: "https://github.com/Jesswinters/weather-forecast"
+      tagline: "A 5-day Weather Forecast single page app."
+
     - title: SurveyRaptor
-      link: "https://github.com/fiveache/SurveyRaptor"
+      link: "https://github.com/davidlacho/SurveyRaptor"
       tagline: "A polling tool for Slack that helps you gauge decisions that will affect your team by building personality profiles that adjust and evolve over time."
 
     - title: Chatty

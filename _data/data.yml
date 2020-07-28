@@ -81,6 +81,8 @@ experiences:
       - Spec and plan out new features with Product Managers, Designers, QA and Lead Software Engineers
       - Code review the code of fellow engineers
       - Work in migrations of existing code to React
+      - Add new and update React components in component library
+      - Fix existing bugs and issues, help answer support tickets
       - Participate in knowledge sharing activities with colleagues
 
   - role: Front-End Developer
@@ -91,6 +93,8 @@ experiences:
       - Everyday use of Terminal, NVM, NPM, Node
       - Development of customizations for client Shopify and BigCommerce stores
       - Working with a team and solo on custom projects
+      - Building new and adding features to Shopify and BigCommerce themes
+      - Fix existing bugs and issues in themes
 
   - role: Web Developer
     time: September 2016 - May 2017

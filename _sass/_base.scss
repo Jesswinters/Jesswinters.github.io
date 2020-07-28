@@ -35,7 +35,7 @@ body {
   font-family: 'CircularStd-Book', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: $text-color-secondary;
+  color: $darker-grey;
   background: linear-gradient(to right, #2ebf91, #74ebd5);
 }
 
@@ -56,6 +56,12 @@ a {
 
 p {
   line-height: 1.5;
+}
+
+.list-unstyled {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
 }
 
 .wrapper {

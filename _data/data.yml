@@ -19,7 +19,7 @@ sidebar:
   github: jesswinters
   gitlab:
   bitbucket:
-  twitter: '@jskawinters'
+  twitter: 'jskawinters'
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
@@ -167,10 +167,10 @@ skills:
 
   toolset:
     - name: HTML & CSS/SASS
-    - name: JavaScript & jQuery
+    - name: JavaScript
     - name: React
-    - name: Liquid (Shopify templating language)
-    - name: Handlebars (templating language)
+    - name: Liquid
+    - name: Handlebars
     - name: Ruby on Rails
     - name: Git
     - name: QA Testing
@@ -179,4 +179,4 @@ skills:
     - name: Zeplin
 
 footer: >
-  Thanks for reading! <i class="fas fa-heart"></i>
+  Thanks for reading! <i class="fas fa-heart" aria-hidden="true"></i>

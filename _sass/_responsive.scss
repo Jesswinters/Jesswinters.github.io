@@ -15,7 +15,11 @@
   }
 
   .main-wrapper {
-    padding: 16px;
+    padding: 30px 16px 16px;
+
+    .section {
+      margin-bottom: 30px;
+    }
   }
 
   .footer {

@@ -36,7 +36,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: $text-color-secondary;
-  background: linear-gradient(to right, #ACB6E5, #74ebd5);
+  background: linear-gradient(to right, #2ebf91, #74ebd5);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -46,12 +46,11 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   color: darken($theme-color, 15%);
+  text-decoration: underline;
+
   &:hover {
-      text-decoration: underline;
-      color: darken($theme-color, 30%);
-  }
-  &:focus {
-      text-decoration: none;
+    color: darken($theme-color, 30%);
+    text-decoration: none;
   }
 }
 
@@ -60,30 +59,27 @@ p {
 }
 
 .wrapper {
-  @include box-shadow(0px 2px 4px rgba(0,0,0,0.1));
-  position: relative;
-  max-width: 1100px;
+  @include box-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+
+  display: grid;
+  grid-template-columns: 280px auto;
   margin: 0 auto;
-  background: $theme-color;
+  max-width: 1100px;
 }
 
 .sidebar-wrapper {
-  position: absolute;
-  width: 280px;
-  height: 100%;
-  min-height: 800px;
-  color: #fff;
-  background: linear-gradient(to right, #4e54c8, #8f94fb);
+  background: $theme-color;
+  color: $white;
 
   a {
-    color: #fff;
+    color: $white;
   }
 
   .profile-container {
     padding: 30px;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, .2);
     text-align: center;
-    color: #fff;
+    color: $white;
   }
 
   .name {
@@ -95,7 +91,7 @@ p {
   }
 
   .tagline {
-    color: rgba(256, 256, 256, 0.6);
+    color: rgba(256, 256, 256, .6);
     font-size: 18px;
     font-weight: 400;
     margin-top: 0;
@@ -109,9 +105,9 @@ p {
   .avatar {
     max-width: 100px;
     margin-bottom: 15px;
-    border: 0px solid #fff;
+    border: 0px solid $white;
     border-radius: 100%;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
   }
 
   .contact-list {
@@ -180,14 +176,14 @@ p {
     }
 
     .meta {
-      color: rgba(256, 256, 256, 0.6);
+      color: rgba(256, 256, 256, .8);
       font-weight: 500;
       margin-bottom: 0px;
       margin-top: 0;
     }
 
     .time {
-      color: rgba(256, 256, 256, 0.6);
+      color: rgba(256, 256, 256, .8);
       font-weight: 500;
       margin-bottom: 0px;
     }
@@ -195,7 +191,7 @@ p {
 
   .languages-container {
     .lang-desc {
-      color: rgba(256, 256, 256, 0.6);
+      color: rgba(256, 256, 256, .8);
     }
   }
 
@@ -225,20 +221,19 @@ p {
 }
 
 .main-wrapper {
-  background: #fff;
+  background: $white;
   padding: 32px;
-  padding-left: 320px;
 
   .section-title {
     display: flex;
     align-items: center;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 20px;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
     color: darken($theme-color, 15%);
-    position: relative;
-    margin-top: 0;
-    margin-bottom: 20px;
   }
 
   .fa-stack {
@@ -249,7 +244,8 @@ p {
     margin-bottom: 60px;
   }
 
-  .experiences-section, .educations-section {
+  .experiences-section,
+  .educations-section {
     .item {
       margin-bottom: 40px;
     }
@@ -261,10 +257,11 @@ p {
     justify-content: space-between;
     padding-bottom: 8px;
     margin-bottom: 8px;
-    border-bottom: 1px solid #f5f5f5;
+    border-bottom: 1px solid $smoky-white;
   }
 
-  .job-title, .degree {
+  .job-title,
+  .degree {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 18px;
@@ -272,13 +269,9 @@ p {
     color: $text-color;
   }
 
-  .time {
-    color: $text-grey;
-  }
-
-  .company, .university {
+  .company,
+  .university {
     margin-bottom: 10px;
-    color: $text-grey;
   }
 
   .project-title {
@@ -307,15 +300,15 @@ p {
   }
 
   .publication-title {
+    color: $text-color;
     font-size: 18px;
     font-weight: 400;
-    color: $text-color;
     margin-bottom: 1px;
   }
 
   .publication-authors {
-    font-style: italic;
     color: $text-grey;
+    font-style: italic;
     margin-bottom: 1px;
   }
 
@@ -334,9 +327,9 @@ p {
   padding-top: 30px;
 
   .copyright {
-    line-height: 1.6;
-    color: $text-color-secondary;
+    color: $black;
     font-size: 14px;
+    line-height: 1.6;
   }
 
   .fa-heart {

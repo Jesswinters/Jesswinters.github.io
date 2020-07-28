@@ -1,32 +1,33 @@
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   body {
-    padding: 0 0 20px 0;
+    padding: 8px;
+  }
+
+  .wrapper {
+    display: block;
   }
 
   .sidebar-wrapper {
-    position: static;
-    width: inherit;
+    .container-block {
+      padding: 16px;
+    }
   }
 
   .main-wrapper {
-    padding: 12px;
+    padding: 16px;
+  }
+
+  .footer {
+    padding-top: 8px;
   }
 }
 
 @media (max-width: 1024px) {
-  body {
-    padding: 20px;
-  }
-
-  .footer {
-    padding-top: 20px;
-  }
-
   .main-wrapper {
     .project-title {
       width: auto;
-      vertical-align: baseline;
+      padding-right: 8px;
     }
 
     .project-tagline {

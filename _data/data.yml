@@ -8,7 +8,7 @@ sidebar:
 
   # Profile information
   name: Jessica Winters
-  tagline: Front-End Developer
+  tagline: Front-End Engineer | Engineering Manager
   avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -19,7 +19,7 @@ sidebar:
   github: jesswinters
   gitlab:
   bitbucket:
-  twitter: 'jskawinters'
+  twitter:
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
@@ -59,12 +59,12 @@ sidebar:
 career-profile:
   title: About me
   summary: |
-          I'm a front-end developer with 8 years of development
-          experience, and 11 years of experience in hands-on technology roles.
-          I love the challenge of learning new coding languages, while staying
-          up-to-date with the ones I'm comfortable with. I'm passionate about
-          accessibility, design and user experience. My hobbies include video games,
-          reading, traveling, puns, tea, sweet snacks, and enjoying well-crafted beer.
+          I'm a front-end engineer with 10+ years of experience in hands-on
+          technology roles and development experience.
+          I enjoy the challenge of learning new coding languages and experimenting with AI,
+          while staying up-to-date with the ones I'm comfortable with. I'm passionate
+          about accessibility, design and user experience. My hobbies include video games,
+          reading, traveling, puns, tea, sweet snacks, and playing rhythm games in arcades.
 
 education:
   - degree: Diploma of Web Development
@@ -92,7 +92,7 @@ experiences:
     company: Zapier
     details: |
       - Delivered high-quality, consistent code based on feature requests, user stories, and prototypes
-      - Spec and plan out new features with Product Managers and Designers
+      - Speced and plan out new features with Product Managers and Designers
       - Improved accessibility in the internal design system and other apps
       - Triaged and fixed bugs in the existing codebase
       - Monitored reliability and performance of Partner Elements through dashboards and tools
@@ -198,6 +198,7 @@ skills:
     - name: JavaScript
     - name: TypeScript
     - name: React
+    - name: Next.js
     - name: Liquid
     - name: Handlebars
     - name: CSS-in-JS
@@ -205,7 +206,6 @@ skills:
     - name: QA Testing
     - name: Sketch & Photoshop
     - name: Figma
-    - name: Zeplin
 
 footer: >
   Thanks for reading! <i class="fas fa-heart" aria-hidden="true"></i>

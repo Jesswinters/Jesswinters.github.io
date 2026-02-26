@@ -73,8 +73,22 @@ education:
     details: |
 
 experiences:
+  - role: Engineering Team Lead
+    time: July 2022 - February 2026
+    company: Zapier
+    details: |
+      - Lead engineering teams with up to 6 direct reports (frontend, fullstack, backend)
+      - Lead Developer Experience and Design System teams
+      - Lead teams building new and existing products, including technical roadmaps, project planning, and execution
+      - Coached direct reports on growth
+      - Promoted intermediate engineers to senior engineers
+      - Collaborating with other teams on projects across teams and zones
+      - Setup a new codebase repository and helped maintain existing ones including infrastructure, as well as help fix bugs, tech debt, improve developer experience and review merge requests
+      - Setting goals, strategy, and metrics (team and product)
+      - Working with Product Manager and Designer on the team to help build technical roadmaps
+
   - role: Front-End Engineer
-    time: April 2021 - Present
+    time: April 2021 - July 2022
     company: Zapier
     details: |
       - Delivered high-quality, consistent code based on feature requests, user stories, and prototypes

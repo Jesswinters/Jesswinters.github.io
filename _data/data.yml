@@ -119,43 +119,11 @@ experiences:
     details: |
       - Proficient in JavaScript, jQuery, CSS, SASS, HTML, HTML5, Liquid, Handlebars
       - Everyday use of Terminal, NVM, NPM, Node
-      - Development of customizations for client Shopify and BigCommerce stores
+      - Development of customizations for client Shopify, BigCommerce, and WordPress stores
+      - Quotes for Shopify, BigCommerce, and Wordpress customizations
       - Working with a team and solo on custom projects
-      - Building new and adding features to Shopify and BigCommerce themes
+      - Building new and adding features to Shopify, BigCommerce, and WordPress themes
       - Fix existing bugs and issues in themes
-
-  - role: Web Developer
-    time: September 2016 - May 2017
-    company: TaskHusky
-    details: |
-      - Proficient in JavaScript, jQuery, CSS, SASS, HTML, HTML5, Liquid, Handlebars
-      - Quotes for Shopify, BigCommerce and Wordpress customizations
-      - Development of customizations for client Shopify and BigCommerce stores
-
-  - role: Web Developer
-    time: November 2014 - September 2016
-    company: Pixel Union
-    details: |
-      - Proficient in JavaScript, jQuery, CSS, SASS, HTML, HTML5, Liquid, Handlebars
-      - Everyday use of Terminal, NVM, NPM, Node
-      - Quotes for Shopify, BigCommerce and Wordpress customizations
-      - Development of customizations for client Shopify and BigCommerce stores
-      - Support for Shopify and BigCommerce themes
-      - Working with a team and solo on custom projects
-
-  - role: Casino Technical Services Assistant
-    time: May 2009 - August 2013
-    company: BCLC
-    details: |
-      Coordinator for the Casino Technical Services department.
-
-      - Creating processes, manuals and updating them accordingly
-      - Find, report, and maintain bugs on the Casino Division’s internal web application into the bug tracking system (Teamforge)
-      - Testing new features and fixes on the Casino Division’s internal web application
-      - Arrange meetings with users of the web application and acquire feedback on how to make the application more user friendly and flow better
-      - Working directly with the development team on enhancing the web application and fixing reproducible issues
-      - Composing reports to the manager on status of issues and new features being implemented in next release of the web application
-      - Adding and ensuring documentation on department web application is relevant and up to date
 
 projects:
   title: Projects

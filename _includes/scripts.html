@@ -1,3 +1,75 @@
-{% if site.analytics %}
+{% if site.analytics or site.posthog_token %}
   {% include analytics.html %}
+{% endif %}
+
+{% if site.posthog_token %}
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    if (typeof posthog === 'undefined') return;
+
+    // Track contact link clicks (email, phone, website)
+    var contactLinks = document.querySelectorAll('.contact-list .email a, .contact-list .phone a, .contact-list .website a');
+    contactLinks.forEach(function (link) {
+      link.addEventListener('click', function () {
+        posthog.capture('contact_link_clicked', {
+          link_type: link.closest('li').className
+        });
+      });
+    });
+
+    // Track social profile link clicks
+    var socialLinks = document.querySelectorAll('.contact-list .linkedin a, .contact-list .github a, .contact-list .gitlab a, .contact-list .bitbucket a, .contact-list .twitter a, .contact-list .stack-overflow a, .contact-list .codewars a, .contact-list .goodreads-g a');
+    socialLinks.forEach(function (link) {
+      link.addEventListener('click', function () {
+        posthog.capture('social_profile_clicked', {
+          platform: link.closest('li').className
+        });
+      });
+    });
+
+    // Track project link clicks
+    var projectLinks = document.querySelectorAll('.projects-section .item a');
+    projectLinks.forEach(function (link) {
+      link.addEventListener('click', function () {
+        posthog.capture('project_link_clicked', {
+          project_title: link.textContent.trim()
+        });
+      });
+    });
+
+    // Track experience section viewed (once, on first scroll into view)
+    var experiencesSection = document.querySelector('.experiences-section');
+    if (experiencesSection && 'IntersectionObserver' in window) {
+      var experienceObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            posthog.capture('experience_section_viewed');
+            experienceObserver.disconnect();
+          }
+        });
+      }, { threshold: 0.25 });
+      experienceObserver.observe(experiencesSection);
+    }
+
+    // Track scroll depth at 50% and 100%
+    var scrollDepthsFired = {};
+    window.addEventListener('scroll', function () {
+      var scrollTop = window.scrollY || document.documentElement.scrollTop;
+      var docHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      if (docHeight <= 0) return;
+      var pct = Math.round((scrollTop / docHeight) * 100);
+      [50, 100].forEach(function (threshold) {
+        if (pct >= threshold && !scrollDepthsFired[threshold]) {
+          scrollDepthsFired[threshold] = true;
+          posthog.capture('scroll_depth_reached', { depth_percent: threshold });
+        }
+      });
+    });
+
+    // Track page engaged after 30 seconds
+    setTimeout(function () {
+      posthog.capture('page_engaged', { seconds_on_page: 30 });
+    }, 30000);
+  });
+</script>
 {% endif %}

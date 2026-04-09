@@ -234,6 +234,8 @@ GEM
       sawyer (~> 0.8.0, >= 0.5.3)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
+    posthog-ruby (2.11.0)
+      concurrent-ruby (~> 1)
     public_suffix (2.0.5)
     racc (1.6.0)
     rb-fsevent (0.11.1)
@@ -273,6 +275,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  posthog-ruby
 
 BUNDLED WITH
-   1.17.1
+   1.17.2

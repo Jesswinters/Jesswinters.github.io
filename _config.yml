@@ -10,6 +10,8 @@ chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't wa
 
 # Tracker
 analytics:
+posthog_token: phc_ocgjUM2Rghan6UaTjh8crUUKeaWknFXo24xYu86Y87Kg
+posthog_host: https://us.i.posthog.com
 
 # Sass/SCSS
 sass:

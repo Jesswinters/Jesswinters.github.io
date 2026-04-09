@@ -2,3 +2,6 @@
 _site/
 .sass-cache/
 .jekyll-metadata
+.env
+.claude/
+posthog-setup-report.md
